@@ -269,3 +269,37 @@ body {
         }
     }
 }
+
+// Contact Styles
+
+#contact {
+    background: $grey_background;
+    padding: 6rem 0 8rem 0;
+    text-align: center;
+    .title {
+        font-size: 2.5rem;
+        color: $dark_grey;
+        margin: 0;
+    }
+    .sub_title {
+        font-size: 1.5rem;
+        color: $dark_grey;
+        width: 600px;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto 4rem auto;
+    }
+}
+
+footer {
+    padding: 1rem 0;
+    .copyright {
+        text-align: center;
+        font-weight: 700;
+        color: $grey_copy;
+        a{
+            color: $highlight;
+            text-decoration: none;
+        }
+    }
+}
